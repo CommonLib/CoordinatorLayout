@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <objectAnimator
+        android:duration="300"
+        android:propertyName="pathData"
+        android:valueFrom="@string/star_data"
+        android:valueTo="@string/star_lollipop"
+        android:valueType="pathType"/>
+
+    <objectAnimator
+        android:duration="300"
+        android:propertyName="pathData"
+        android:valueTo="@string/star_data"
+        android:valueFrom="@string/star_lollipop"
+        android:valueType="pathType"/>
+</set>
